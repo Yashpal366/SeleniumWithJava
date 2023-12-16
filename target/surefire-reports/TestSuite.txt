@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 23.292 s <<< FAILURE! - in TestSuite
+com.basics.DataDrivenTesting.Logintest[username, password](1)  Time elapsed: 6.178 s  <<< FAILURE!
+java.lang.AssertionError: Page title doesn't match expected title expected [Logged In Successfully | Practice Test Automation] but found [Test Login | Practice Test Automation]
+	at com.basics.DataDrivenTesting.Logintest(DataDrivenTesting.java:32)
+
+com.basics.DataDrivenTesting.Logintest[student, pass](2)  Time elapsed: 4.885 s  <<< FAILURE!
+java.lang.AssertionError: Page title doesn't match expected title expected [Logged In Successfully | Practice Test Automation] but found [Test Login | Practice Test Automation]
+	at com.basics.DataDrivenTesting.Logintest(DataDrivenTesting.java:32)
+
+com.basics.DataDrivenTesting.Logintest[pass, student](3)  Time elapsed: 4.919 s  <<< FAILURE!
+java.lang.AssertionError: Page title doesn't match expected title expected [Logged In Successfully | Practice Test Automation] but found [Test Login | Practice Test Automation]
+	at com.basics.DataDrivenTesting.Logintest(DataDrivenTesting.java:32)
+

@@ -1,0 +1,34 @@
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="tests">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.basics.parallelTest"/>
+        </classes>
+    </test>
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.basics.parallelTest"/>
+        </classes>
+    </test>
+</suite> -->
+
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Keyword Data Testing">
+    <test name="Keyword Data Testing">
+        <classes>
+            <class name="com.basics.KeywordDataTesting"/>
+        </classes>
+    </test>
+</suite>
+ -->
+
+ <!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataDrivenSuite">
+    <test name="DataDrivenTest">
+        <classes>
+            <class name="com.basics.DataDrivenTesting"/>
+        </classes>
+    </test>
+</suite> -->
